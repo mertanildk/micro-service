@@ -11,4 +11,5 @@ import java.util.List;
 @ConfigurationProperties(prefix = "twitter-to-kafka-service")
 public class TwitterToKafkaServConfigData {
     private List<String> twitterKeywords;
+    private String welcomeMessage; //from application.properties they have to be same name with the properties
 }
