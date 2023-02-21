@@ -13,6 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>micro-service-demo</name>
     <description>micro-service-demo</description>
+    <modules>
+        <module>twitter-to-kafka-serv</module>
+    </modules>
     <packaging>pom</packaging>
     <dependencyManagement>
         <dependencies>
@@ -28,13 +31,26 @@
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
             </dependency>
-        </dependencies>
 
+            <dependency><!--> Twitter4j -->
+                <groupId>org.twitter4j</groupId>
+                <artifactId>twitter4j-stream</artifactId>
+                <version>${twitter4j.version}</version>
+            </dependency><!--> Twitter4j -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
     <properties>
         <java.version>17</java.version>
         <spring-boot.version>3.0.2</spring-boot.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
+        <lombok.version>1.18.20</lombok.version>
     </properties>
 
 
@@ -58,7 +74,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
     </build>
 
 </project>
