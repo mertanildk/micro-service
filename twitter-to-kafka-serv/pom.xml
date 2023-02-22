@@ -30,6 +30,17 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency><!--httpclient-->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency><!--httpclient-->
+        <dependency><!--json-->
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency><!--json-->
+
+
     </dependencies>
 
     <build>
