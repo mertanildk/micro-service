@@ -7,9 +7,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import twittertoKafkaService.config.TwitterToKafkaServConfigData;
+import twittertoKafkaService.runner.StreamRunner;
 
 import java.util.Arrays;
-import java.util.List;
 
 
 @SpringBootApplication
@@ -17,6 +17,7 @@ import java.util.List;
 public class TwitterToKafkaApplication implements CommandLineRunner {
     private final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaApplication.class);
     private final TwitterToKafkaServConfigData twitterToKafkaServConfigData;
+    private final StreamRunner streamRunner;
 
     public static void main(String[] args) {
         SpringApplication.run(TwitterToKafkaApplication.class, args);
@@ -27,6 +28,7 @@ public class TwitterToKafkaApplication implements CommandLineRunner {
         LOG.info("TwitterToKafkaApplication is running");
         LOG.info(Arrays.toString(twitterToKafkaServConfigData.getTwitterKeywords().toArray()));
         LOG.info(twitterToKafkaServConfigData.getWelcomeMessage());
+        streamRunner.run();
     }
 
 
