@@ -12,4 +12,7 @@ import java.util.List;
 public class TwitterToKafkaServConfigData {
     private List<String> twitterKeywords;
     private String welcomeMessage; //from application.properties they have to be same name with the properties
+    private String twitterV2BaseUrl;
+    private String twitterV2RulesBaseUrl;
+    private String twitterV2BearerToken;
 }
