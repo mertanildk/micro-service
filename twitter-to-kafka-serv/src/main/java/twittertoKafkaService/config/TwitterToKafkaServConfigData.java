@@ -12,7 +12,24 @@ import java.util.List;
 public class TwitterToKafkaServConfigData {
     private List<String> twitterKeywords;
     private String welcomeMessage; //from application.properties they have to be same name with the properties
+    private Boolean enableMockTweets;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
+    private Long mockSleepMs;
+
+    /*
+      enable-mock-tweets: true
+  mock-min-tweet-length: 5
+  mock-max-tweet-length: 5
+  mock-sleep-ms: 10000
+     */
+
+
+
+    /*
     private String twitterV2BaseUrl;
     private String twitterV2RulesBaseUrl;
     private String twitterV2BearerToken;
+     */
+
 }
