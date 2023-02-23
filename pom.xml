@@ -17,54 +17,66 @@
         <module>twitter-to-kafka-serv</module>
     </modules>
     <packaging>pom</packaging>
+
+    <properties>
+        <java.version>11</java.version>
+        <spring-boot.version>3.0.2</spring-boot.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
+        <twitter-api-java-sdk.version>1.2.2</twitter-api-java-sdk.version>
+        <lombok.version>1.18.16</lombok.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <json.version>20220320</json.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
                 <version>${spring-boot.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.junit.vintage</groupId>
+                        <artifactId>junit-vintage-engine</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
-            <dependency><!--> Twitter4j -->
+            <dependency>
                 <groupId>org.twitter4j</groupId>
                 <artifactId>twitter4j-stream</artifactId>
                 <version>${twitter4j.version}</version>
-            </dependency><!--> Twitter4j -->
-            <dependency><!--lombok-->
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${json.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
-            </dependency><!--lombok-->
-            <dependency><!--httpclient-->
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>${httpclient.version}</version>
-            </dependency><!--httpclient-->
-            <dependency><!--json-->
-                <groupId>org.json</groupId>
-                <artifactId>json</artifactId>
-                <version>${json.version}</version>
-            </dependency><!--json-->
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
-    <properties>
-        <java.version>17</java.version>
-        <spring-boot.version>3.0.2</spring-boot.version>
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <twitter4j.version>4.0.7</twitter4j.version>
-        <lombok.version>1.18.20</lombok.version>
-        <httpclient-version>4.5.14</httpclient-version>
-        <json.version>20220320</json.version>
-    </properties>
+
 
     <build>
         <plugins>
@@ -73,7 +85,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <release></release>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>
@@ -89,3 +101,4 @@
     </build>
 
 </project>
+
