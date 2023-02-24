@@ -32,4 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 twitter-to-kafka-serv/twitter-to-kafka-service/logs/twitter-to-kafka-service.log
-twitter-to-kafka-service/logs/twitter-to-kafka-service.log
+twitter-to-kafka-service-LOG/logs/twitter-to-kafka-service.log
