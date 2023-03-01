@@ -13,24 +13,24 @@ import org.apache.avro.message.BinaryMessageDecoder;
 import org.apache.avro.message.SchemaStore;
 
 @org.apache.avro.specific.AvroGenerated
-public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = -8060835285344091348L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"KafkaAvroModel\",\"namespace\":\"example.avro\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"int\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}");
+public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
+  private static final long serialVersionUID = -3864175111785540403L;
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"TwitterAvroModel\",\"namespace\":\"example.avro\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"int\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 
   private static SpecificData MODEL$ = new SpecificData();
 
-  private static final BinaryMessageEncoder<KafkaAvroModel> ENCODER =
-      new BinaryMessageEncoder<KafkaAvroModel>(MODEL$, SCHEMA$);
+  private static final BinaryMessageEncoder<TwitterAvroModel> ENCODER =
+      new BinaryMessageEncoder<TwitterAvroModel>(MODEL$, SCHEMA$);
 
-  private static final BinaryMessageDecoder<KafkaAvroModel> DECODER =
-      new BinaryMessageDecoder<KafkaAvroModel>(MODEL$, SCHEMA$);
+  private static final BinaryMessageDecoder<TwitterAvroModel> DECODER =
+      new BinaryMessageDecoder<TwitterAvroModel>(MODEL$, SCHEMA$);
 
   /**
    * Return the BinaryMessageEncoder instance used by this class.
    * @return the message encoder used by this class
    */
-  public static BinaryMessageEncoder<KafkaAvroModel> getEncoder() {
+  public static BinaryMessageEncoder<TwitterAvroModel> getEncoder() {
     return ENCODER;
   }
 
@@ -38,7 +38,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
    * Return the BinaryMessageDecoder instance used by this class.
    * @return the message decoder used by this class
    */
-  public static BinaryMessageDecoder<KafkaAvroModel> getDecoder() {
+  public static BinaryMessageDecoder<TwitterAvroModel> getDecoder() {
     return DECODER;
   }
 
@@ -47,12 +47,12 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
    * @param resolver a {@link SchemaStore} used to find schemas by fingerprint
    * @return a BinaryMessageDecoder instance for this class backed by the given SchemaStore
    */
-  public static BinaryMessageDecoder<KafkaAvroModel> createDecoder(SchemaStore resolver) {
-    return new BinaryMessageDecoder<KafkaAvroModel>(MODEL$, SCHEMA$, resolver);
+  public static BinaryMessageDecoder<TwitterAvroModel> createDecoder(SchemaStore resolver) {
+    return new BinaryMessageDecoder<TwitterAvroModel>(MODEL$, SCHEMA$, resolver);
   }
 
   /**
-   * Serializes this KafkaAvroModel to a ByteBuffer.
+   * Serializes this TwitterAvroModel to a ByteBuffer.
    * @return a buffer holding the serialized data for this instance
    * @throws java.io.IOException if this instance could not be serialized
    */
@@ -61,12 +61,12 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
   }
 
   /**
-   * Deserializes a KafkaAvroModel from a ByteBuffer.
+   * Deserializes a TwitterAvroModel from a ByteBuffer.
    * @param b a byte buffer holding serialized data for an instance of this class
-   * @return a KafkaAvroModel instance decoded from the given buffer
+   * @return a TwitterAvroModel instance decoded from the given buffer
    * @throws java.io.IOException if the given bytes could not be deserialized into an instance of this class
    */
-  public static KafkaAvroModel fromByteBuffer(
+  public static TwitterAvroModel fromByteBuffer(
       java.nio.ByteBuffer b) throws java.io.IOException {
     return DECODER.decode(b);
   }
@@ -80,7 +80,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
    * to their default values from the schema.  If that is desired then
    * one should use <code>newBuilder()</code>.
    */
-  public KafkaAvroModel() {}
+  public TwitterAvroModel() {}
 
   /**
    * All-args constructor.
@@ -88,7 +88,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
    * @param favorite_number The new value for favorite_number
    * @param favorite_color The new value for favorite_color
    */
-  public KafkaAvroModel(java.lang.CharSequence name, java.lang.Integer favorite_number, java.lang.CharSequence favorite_color) {
+  public TwitterAvroModel(java.lang.CharSequence name, java.lang.Integer favorite_number, java.lang.CharSequence favorite_color) {
     this.name = name;
     this.favorite_number = favorite_number;
     this.favorite_color = favorite_color;
@@ -169,45 +169,45 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
   }
 
   /**
-   * Creates a new KafkaAvroModel RecordBuilder.
-   * @return A new KafkaAvroModel RecordBuilder
+   * Creates a new TwitterAvroModel RecordBuilder.
+   * @return A new TwitterAvroModel RecordBuilder
    */
-  public static example.avro.KafkaAvroModel.Builder newBuilder() {
-    return new example.avro.KafkaAvroModel.Builder();
+  public static example.avro.TwitterAvroModel.Builder newBuilder() {
+    return new example.avro.TwitterAvroModel.Builder();
   }
 
   /**
-   * Creates a new KafkaAvroModel RecordBuilder by copying an existing Builder.
+   * Creates a new TwitterAvroModel RecordBuilder by copying an existing Builder.
    * @param other The existing builder to copy.
-   * @return A new KafkaAvroModel RecordBuilder
+   * @return A new TwitterAvroModel RecordBuilder
    */
-  public static example.avro.KafkaAvroModel.Builder newBuilder(example.avro.KafkaAvroModel.Builder other) {
+  public static example.avro.TwitterAvroModel.Builder newBuilder(example.avro.TwitterAvroModel.Builder other) {
     if (other == null) {
-      return new example.avro.KafkaAvroModel.Builder();
+      return new example.avro.TwitterAvroModel.Builder();
     } else {
-      return new example.avro.KafkaAvroModel.Builder(other);
+      return new example.avro.TwitterAvroModel.Builder(other);
     }
   }
 
   /**
-   * Creates a new KafkaAvroModel RecordBuilder by copying an existing KafkaAvroModel instance.
+   * Creates a new TwitterAvroModel RecordBuilder by copying an existing TwitterAvroModel instance.
    * @param other The existing instance to copy.
-   * @return A new KafkaAvroModel RecordBuilder
+   * @return A new TwitterAvroModel RecordBuilder
    */
-  public static example.avro.KafkaAvroModel.Builder newBuilder(example.avro.KafkaAvroModel other) {
+  public static example.avro.TwitterAvroModel.Builder newBuilder(example.avro.TwitterAvroModel other) {
     if (other == null) {
-      return new example.avro.KafkaAvroModel.Builder();
+      return new example.avro.TwitterAvroModel.Builder();
     } else {
-      return new example.avro.KafkaAvroModel.Builder(other);
+      return new example.avro.TwitterAvroModel.Builder(other);
     }
   }
 
   /**
-   * RecordBuilder for KafkaAvroModel instances.
+   * RecordBuilder for TwitterAvroModel instances.
    */
   @org.apache.avro.specific.AvroGenerated
-  public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<KafkaAvroModel>
-    implements org.apache.avro.data.RecordBuilder<KafkaAvroModel> {
+  public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<TwitterAvroModel>
+    implements org.apache.avro.data.RecordBuilder<TwitterAvroModel> {
 
     private java.lang.CharSequence name;
     private java.lang.Integer favorite_number;
@@ -222,7 +222,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(example.avro.KafkaAvroModel.Builder other) {
+    private Builder(example.avro.TwitterAvroModel.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.name)) {
         this.name = data().deepCopy(fields()[0].schema(), other.name);
@@ -239,10 +239,10 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
     }
 
     /**
-     * Creates a Builder by copying an existing KafkaAvroModel instance
+     * Creates a Builder by copying an existing TwitterAvroModel instance
      * @param other The existing instance to copy.
      */
-    private Builder(example.avro.KafkaAvroModel other) {
+    private Builder(example.avro.TwitterAvroModel other) {
       super(SCHEMA$);
       if (isValidValue(fields()[0], other.name)) {
         this.name = data().deepCopy(fields()[0].schema(), other.name);
@@ -272,7 +272,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * @param value The value of 'name'.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder setName(java.lang.CharSequence value) {
+    public example.avro.TwitterAvroModel.Builder setName(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.name = value;
       fieldSetFlags()[0] = true;
@@ -292,7 +292,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * Clears the value of the 'name' field.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder clearName() {
+    public example.avro.TwitterAvroModel.Builder clearName() {
       name = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -312,7 +312,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * @param value The value of 'favorite_number'.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder setFavoriteNumber(java.lang.Integer value) {
+    public example.avro.TwitterAvroModel.Builder setFavoriteNumber(java.lang.Integer value) {
       validate(fields()[1], value);
       this.favorite_number = value;
       fieldSetFlags()[1] = true;
@@ -332,7 +332,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * Clears the value of the 'favorite_number' field.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder clearFavoriteNumber() {
+    public example.avro.TwitterAvroModel.Builder clearFavoriteNumber() {
       favorite_number = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -352,7 +352,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * @param value The value of 'favorite_color'.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder setFavoriteColor(java.lang.CharSequence value) {
+    public example.avro.TwitterAvroModel.Builder setFavoriteColor(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.favorite_color = value;
       fieldSetFlags()[2] = true;
@@ -372,7 +372,7 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
       * Clears the value of the 'favorite_color' field.
       * @return This builder.
       */
-    public example.avro.KafkaAvroModel.Builder clearFavoriteColor() {
+    public example.avro.TwitterAvroModel.Builder clearFavoriteColor() {
       favorite_color = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -380,9 +380,9 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
 
     @Override
     @SuppressWarnings("unchecked")
-    public KafkaAvroModel build() {
+    public TwitterAvroModel build() {
       try {
-        KafkaAvroModel record = new KafkaAvroModel();
+        TwitterAvroModel record = new TwitterAvroModel();
         record.name = fieldSetFlags()[0] ? this.name : (java.lang.CharSequence) defaultValue(fields()[0]);
         record.favorite_number = fieldSetFlags()[1] ? this.favorite_number : (java.lang.Integer) defaultValue(fields()[1]);
         record.favorite_color = fieldSetFlags()[2] ? this.favorite_color : (java.lang.CharSequence) defaultValue(fields()[2]);
@@ -396,8 +396,8 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
   }
 
   @SuppressWarnings("unchecked")
-  private static final org.apache.avro.io.DatumWriter<KafkaAvroModel>
-    WRITER$ = (org.apache.avro.io.DatumWriter<KafkaAvroModel>)MODEL$.createDatumWriter(SCHEMA$);
+  private static final org.apache.avro.io.DatumWriter<TwitterAvroModel>
+    WRITER$ = (org.apache.avro.io.DatumWriter<TwitterAvroModel>)MODEL$.createDatumWriter(SCHEMA$);
 
   @Override public void writeExternal(java.io.ObjectOutput out)
     throws java.io.IOException {
@@ -405,8 +405,8 @@ public class KafkaAvroModel extends org.apache.avro.specific.SpecificRecordBase 
   }
 
   @SuppressWarnings("unchecked")
-  private static final org.apache.avro.io.DatumReader<KafkaAvroModel>
-    READER$ = (org.apache.avro.io.DatumReader<KafkaAvroModel>)MODEL$.createDatumReader(SCHEMA$);
+  private static final org.apache.avro.io.DatumReader<TwitterAvroModel>
+    READER$ = (org.apache.avro.io.DatumReader<TwitterAvroModel>)MODEL$.createDatumReader(SCHEMA$);
 
   @Override public void readExternal(java.io.ObjectInput in)
     throws java.io.IOException {
