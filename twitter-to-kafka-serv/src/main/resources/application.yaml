@@ -28,6 +28,17 @@ twitter-to-kafka-service:
     num-partitions: 3
     replication-factor: 5
 
+  kafka-producer-config:
+    key-serializer-class : org.apache.kafka.common.serialization.LongSerializer #keyin long olacağını belirtiyoruz
+    value-serializer-class : io.confluent.kafka.serializers.KafkaAvroSerializer #value kafka avro serializer olduğunu belirtiyoruz
+    compression-type: snoopy #diğerlerinden hızlıdır, az sıkıştırır.
+    acks: all #all: wait for all in-sync replicas, 1: wait for the leader, 0: no acks
+    batch-size: 16384  #16kb
+    batch-size-boost-factor: 100 # 16kb * 100 = 1.6mb 100x
+    linger-ms: 5 #delay on producer in case of light load
+    request-timeout-ms: 60000 #60s #timeout for producer to wait for acks from broker
+    retry-count: 5 # it will retry 5 times if it fails to send a message
+
 
   #enable-v2-tweets: false
   #twitter-v2-base-url: https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at&expansions=author_id

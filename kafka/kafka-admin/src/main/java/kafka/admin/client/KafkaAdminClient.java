@@ -47,7 +47,7 @@ public class KafkaAdminClient{
     }
 
 
-    private void checkTopicsCreated() throws InterruptedException {
+    private void checkTopicsCreated() {
         Collection<TopicListing> topicListings = getTopics();
         Integer retryCount = 1;
         Integer maxRetry = retryConfigData.getMaxAttempts();
@@ -61,8 +61,6 @@ public class KafkaAdminClient{
                 topicListings = getTopics();
             }
         }
-
-
     }
 
     public void checkSchemaRegistery() {

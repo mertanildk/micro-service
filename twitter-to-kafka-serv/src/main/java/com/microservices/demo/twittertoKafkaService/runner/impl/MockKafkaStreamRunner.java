@@ -95,7 +95,6 @@ public class MockKafkaStreamRunner implements StreamRunner {
             }
         });
     }
-
     private void sleep(long sleepTimeMs) {
         try {
             Thread.sleep(sleepTimeMs);

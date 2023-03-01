@@ -1,0 +1,13 @@
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 78119 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.381 seconds (process running for 0.914)
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-01 21:07:32 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-01 21:07:32 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem ipsum dolor sit dolor Lorem Microservices massa posuere massa adipiscing
+2023-03-01 21:07:42 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus amet massa lectus Fusce massa Maecenas purus Microservices Maecenas elit lectus amet Fusce Lorem malesuada
+2023-03-01 21:07:52 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor porttitor ultricies Lorem amet amet Elasticsearch sit posuere malesuada Fusce
+2023-03-01 21:08:02 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor malesuada ultricies malesuada consectetuer Microservices purus porttitor libero adipiscing
+2023-03-01 21:08:12 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Fusce ipsum posuere elit dolor pulvinar Kafka consectetuer lectus elit lectus massa
+2023-03-01 21:08:22 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: congue ultricies elit Java posuere posuere
