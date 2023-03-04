@@ -1,4 +1,4 @@
-package config;
+package com.microservices.demo.config;
 
 
 import com.microservices.demo.config.KafkaConfigData;
