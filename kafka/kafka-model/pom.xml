@@ -30,7 +30,7 @@
                 <artifactId>avro-maven-plugin</artifactId>
                 <version>${avro.version}</version>
                 <configuration>
-                    <StringType>String</StringType>
+                    <stringType>String</stringType>
                     <!--Avro gives you the option to use CharSequence or String. CharSequence is the default.-->
                 </configuration>
                 <executions>
