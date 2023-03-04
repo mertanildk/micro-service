@@ -1,9 +1,10 @@
 {"namespace": "example.avro",
- "type": "record",
- "name": "TwitterAvroModel",
- "fields": [
-     {"name": "name", "type": "string"},
-     {"name": "favorite_number",  "type": ["int", "null"]},
-     {"name": "favorite_color", "type": ["string", "null"]}
- ]
+  "type": "record",
+  "name": "TwitterAvroModel",
+  "fields": [
+    {"name": "userId", "type": "long"},
+    {"name": "id", "type": "long"},
+    {"name": "text", "type": ["null", "string"]},
+    {"name": "createdAt", "type": ["null", "long"], "logicalType": ["null", "date"]}
+  ]
 }
