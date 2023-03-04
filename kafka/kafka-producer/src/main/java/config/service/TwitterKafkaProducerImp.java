@@ -1,22 +1,15 @@
 package config.service;
 
 import example.avro.TwitterAvroModel;
-
-
 import jakarta.annotation.PreDestroy;
-import org.apache.http.concurrent.FutureCallback;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import org.assertj.core.internal.Futures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.util.concurrent.ListenableFuture;
-import org.springframework.util.concurrent.ListenableFutureCallback;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 
 public class TwitterKafkaProducerImp implements KafkaProducer<Long, TwitterAvroModel> {
     private final Logger LOG = LoggerFactory.getLogger(TwitterKafkaProducerImp.class);
