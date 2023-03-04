@@ -4,7 +4,6 @@ import com.microservices.demo.twittertoKafkaService.listener.TwitterKafkaStatusL
 import com.microservices.demo.twittertoKafkaService.runner.StreamRunner;
 import com.microservices.demo.config.TwitterToKafkaServConfigData;
 import jakarta.annotation.PreDestroy;
-import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -18,7 +17,6 @@ import java.util.Arrays;
 
 @Component
 @ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "false", matchIfMissing = true)
-@RequiredArgsConstructor
 public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStreamRunner.class);
@@ -29,6 +27,10 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private TwitterStream twitterStream;
 
+    public TwitterKafkaStreamRunner(TwitterToKafkaServConfigData twitterToKafkaServiceConfigData, TwitterKafkaStatusListener twitterKafkaStatusListener) {
+        this.twitterToKafkaServiceConfigData = twitterToKafkaServiceConfigData;
+        this.twitterKafkaStatusListener = twitterKafkaStatusListener;
+    }
 
 
     @Override
