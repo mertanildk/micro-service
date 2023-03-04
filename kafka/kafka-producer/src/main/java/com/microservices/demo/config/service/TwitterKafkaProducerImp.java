@@ -1,4 +1,4 @@
-package config.service;
+package com.microservices.demo.config.service;
 
 import example.avro.TwitterAvroModel;
 import jakarta.annotation.PreDestroy;
