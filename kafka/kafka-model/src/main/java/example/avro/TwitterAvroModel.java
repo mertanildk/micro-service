@@ -14,8 +14,8 @@ import org.apache.avro.message.SchemaStore;
 
 @org.apache.avro.specific.AvroGenerated
 public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = -3864175111785540403L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"TwitterAvroModel\",\"namespace\":\"example.avro\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"int\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}");
+  private static final long serialVersionUID = -3766731792012088272L;
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"TwitterAvroModel\",\"namespace\":\"example.avro\",\"fields\":[{\"name\":\"userId\",\"type\":\"long\"},{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"text\",\"type\":[\"null\",{\"type\":\"string\",\"avro.java.string\":\"String\"}]},{\"name\":\"createdAt\",\"type\":[\"null\",\"long\"],\"logicalType\":[\"null\",\"date\"]}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 
   private static SpecificData MODEL$ = new SpecificData();
@@ -71,9 +71,10 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
     return DECODER.decode(b);
   }
 
-   private java.lang.CharSequence name;
-   private java.lang.Integer favorite_number;
-   private java.lang.CharSequence favorite_color;
+   private long userId;
+   private long id;
+   private java.lang.String text;
+   private java.lang.Long createdAt;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -84,14 +85,16 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
 
   /**
    * All-args constructor.
-   * @param name The new value for name
-   * @param favorite_number The new value for favorite_number
-   * @param favorite_color The new value for favorite_color
+   * @param userId The new value for userId
+   * @param id The new value for id
+   * @param text The new value for text
+   * @param createdAt The new value for createdAt
    */
-  public TwitterAvroModel(java.lang.CharSequence name, java.lang.Integer favorite_number, java.lang.CharSequence favorite_color) {
-    this.name = name;
-    this.favorite_number = favorite_number;
-    this.favorite_color = favorite_color;
+  public TwitterAvroModel(java.lang.Long userId, java.lang.Long id, java.lang.String text, java.lang.Long createdAt) {
+    this.userId = userId;
+    this.id = id;
+    this.text = text;
+    this.createdAt = createdAt;
   }
 
   public org.apache.avro.specific.SpecificData getSpecificData() { return MODEL$; }
@@ -99,9 +102,10 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
   // Used by DatumWriter.  Applications should not call.
   public java.lang.Object get(int field$) {
     switch (field$) {
-    case 0: return name;
-    case 1: return favorite_number;
-    case 2: return favorite_color;
+    case 0: return userId;
+    case 1: return id;
+    case 2: return text;
+    case 3: return createdAt;
     default: throw new IndexOutOfBoundsException("Invalid index: " + field$);
     }
   }
@@ -110,62 +114,80 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: name = (java.lang.CharSequence)value$; break;
-    case 1: favorite_number = (java.lang.Integer)value$; break;
-    case 2: favorite_color = (java.lang.CharSequence)value$; break;
+    case 0: userId = (java.lang.Long)value$; break;
+    case 1: id = (java.lang.Long)value$; break;
+    case 2: text = value$ != null ? value$.toString() : null; break;
+    case 3: createdAt = (java.lang.Long)value$; break;
     default: throw new IndexOutOfBoundsException("Invalid index: " + field$);
     }
   }
 
   /**
-   * Gets the value of the 'name' field.
-   * @return The value of the 'name' field.
+   * Gets the value of the 'userId' field.
+   * @return The value of the 'userId' field.
    */
-  public java.lang.CharSequence getName() {
-    return name;
+  public long getUserId() {
+    return userId;
   }
 
 
   /**
-   * Sets the value of the 'name' field.
+   * Sets the value of the 'userId' field.
    * @param value the value to set.
    */
-  public void setName(java.lang.CharSequence value) {
-    this.name = value;
+  public void setUserId(long value) {
+    this.userId = value;
   }
 
   /**
-   * Gets the value of the 'favorite_number' field.
-   * @return The value of the 'favorite_number' field.
+   * Gets the value of the 'id' field.
+   * @return The value of the 'id' field.
    */
-  public java.lang.Integer getFavoriteNumber() {
-    return favorite_number;
+  public long getId() {
+    return id;
   }
 
 
   /**
-   * Sets the value of the 'favorite_number' field.
+   * Sets the value of the 'id' field.
    * @param value the value to set.
    */
-  public void setFavoriteNumber(java.lang.Integer value) {
-    this.favorite_number = value;
+  public void setId(long value) {
+    this.id = value;
   }
 
   /**
-   * Gets the value of the 'favorite_color' field.
-   * @return The value of the 'favorite_color' field.
+   * Gets the value of the 'text' field.
+   * @return The value of the 'text' field.
    */
-  public java.lang.CharSequence getFavoriteColor() {
-    return favorite_color;
+  public java.lang.String getText() {
+    return text;
   }
 
 
   /**
-   * Sets the value of the 'favorite_color' field.
+   * Sets the value of the 'text' field.
    * @param value the value to set.
    */
-  public void setFavoriteColor(java.lang.CharSequence value) {
-    this.favorite_color = value;
+  public void setText(java.lang.String value) {
+    this.text = value;
+  }
+
+  /**
+   * Gets the value of the 'createdAt' field.
+   * @return The value of the 'createdAt' field.
+   */
+  public java.lang.Long getCreatedAt() {
+    return createdAt;
+  }
+
+
+  /**
+   * Sets the value of the 'createdAt' field.
+   * @param value the value to set.
+   */
+  public void setCreatedAt(java.lang.Long value) {
+    this.createdAt = value;
   }
 
   /**
@@ -209,9 +231,10 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<TwitterAvroModel>
     implements org.apache.avro.data.RecordBuilder<TwitterAvroModel> {
 
-    private java.lang.CharSequence name;
-    private java.lang.Integer favorite_number;
-    private java.lang.CharSequence favorite_color;
+    private long userId;
+    private long id;
+    private java.lang.String text;
+    private java.lang.Long createdAt;
 
     /** Creates a new Builder */
     private Builder() {
@@ -224,17 +247,21 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
      */
     private Builder(example.avro.TwitterAvroModel.Builder other) {
       super(other);
-      if (isValidValue(fields()[0], other.name)) {
-        this.name = data().deepCopy(fields()[0].schema(), other.name);
+      if (isValidValue(fields()[0], other.userId)) {
+        this.userId = data().deepCopy(fields()[0].schema(), other.userId);
         fieldSetFlags()[0] = other.fieldSetFlags()[0];
       }
-      if (isValidValue(fields()[1], other.favorite_number)) {
-        this.favorite_number = data().deepCopy(fields()[1].schema(), other.favorite_number);
+      if (isValidValue(fields()[1], other.id)) {
+        this.id = data().deepCopy(fields()[1].schema(), other.id);
         fieldSetFlags()[1] = other.fieldSetFlags()[1];
       }
-      if (isValidValue(fields()[2], other.favorite_color)) {
-        this.favorite_color = data().deepCopy(fields()[2].schema(), other.favorite_color);
+      if (isValidValue(fields()[2], other.text)) {
+        this.text = data().deepCopy(fields()[2].schema(), other.text);
         fieldSetFlags()[2] = other.fieldSetFlags()[2];
+      }
+      if (isValidValue(fields()[3], other.createdAt)) {
+        this.createdAt = data().deepCopy(fields()[3].schema(), other.createdAt);
+        fieldSetFlags()[3] = other.fieldSetFlags()[3];
       }
     }
 
@@ -244,137 +271,179 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
      */
     private Builder(example.avro.TwitterAvroModel other) {
       super(SCHEMA$);
-      if (isValidValue(fields()[0], other.name)) {
-        this.name = data().deepCopy(fields()[0].schema(), other.name);
+      if (isValidValue(fields()[0], other.userId)) {
+        this.userId = data().deepCopy(fields()[0].schema(), other.userId);
         fieldSetFlags()[0] = true;
       }
-      if (isValidValue(fields()[1], other.favorite_number)) {
-        this.favorite_number = data().deepCopy(fields()[1].schema(), other.favorite_number);
+      if (isValidValue(fields()[1], other.id)) {
+        this.id = data().deepCopy(fields()[1].schema(), other.id);
         fieldSetFlags()[1] = true;
       }
-      if (isValidValue(fields()[2], other.favorite_color)) {
-        this.favorite_color = data().deepCopy(fields()[2].schema(), other.favorite_color);
+      if (isValidValue(fields()[2], other.text)) {
+        this.text = data().deepCopy(fields()[2].schema(), other.text);
         fieldSetFlags()[2] = true;
+      }
+      if (isValidValue(fields()[3], other.createdAt)) {
+        this.createdAt = data().deepCopy(fields()[3].schema(), other.createdAt);
+        fieldSetFlags()[3] = true;
       }
     }
 
     /**
-      * Gets the value of the 'name' field.
+      * Gets the value of the 'userId' field.
       * @return The value.
       */
-    public java.lang.CharSequence getName() {
-      return name;
+    public long getUserId() {
+      return userId;
     }
 
 
     /**
-      * Sets the value of the 'name' field.
-      * @param value The value of 'name'.
+      * Sets the value of the 'userId' field.
+      * @param value The value of 'userId'.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder setName(java.lang.CharSequence value) {
+    public example.avro.TwitterAvroModel.Builder setUserId(long value) {
       validate(fields()[0], value);
-      this.name = value;
+      this.userId = value;
       fieldSetFlags()[0] = true;
       return this;
     }
 
     /**
-      * Checks whether the 'name' field has been set.
-      * @return True if the 'name' field has been set, false otherwise.
+      * Checks whether the 'userId' field has been set.
+      * @return True if the 'userId' field has been set, false otherwise.
       */
-    public boolean hasName() {
+    public boolean hasUserId() {
       return fieldSetFlags()[0];
     }
 
 
     /**
-      * Clears the value of the 'name' field.
+      * Clears the value of the 'userId' field.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder clearName() {
-      name = null;
+    public example.avro.TwitterAvroModel.Builder clearUserId() {
       fieldSetFlags()[0] = false;
       return this;
     }
 
     /**
-      * Gets the value of the 'favorite_number' field.
+      * Gets the value of the 'id' field.
       * @return The value.
       */
-    public java.lang.Integer getFavoriteNumber() {
-      return favorite_number;
+    public long getId() {
+      return id;
     }
 
 
     /**
-      * Sets the value of the 'favorite_number' field.
-      * @param value The value of 'favorite_number'.
+      * Sets the value of the 'id' field.
+      * @param value The value of 'id'.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder setFavoriteNumber(java.lang.Integer value) {
+    public example.avro.TwitterAvroModel.Builder setId(long value) {
       validate(fields()[1], value);
-      this.favorite_number = value;
+      this.id = value;
       fieldSetFlags()[1] = true;
       return this;
     }
 
     /**
-      * Checks whether the 'favorite_number' field has been set.
-      * @return True if the 'favorite_number' field has been set, false otherwise.
+      * Checks whether the 'id' field has been set.
+      * @return True if the 'id' field has been set, false otherwise.
       */
-    public boolean hasFavoriteNumber() {
+    public boolean hasId() {
       return fieldSetFlags()[1];
     }
 
 
     /**
-      * Clears the value of the 'favorite_number' field.
+      * Clears the value of the 'id' field.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder clearFavoriteNumber() {
-      favorite_number = null;
+    public example.avro.TwitterAvroModel.Builder clearId() {
       fieldSetFlags()[1] = false;
       return this;
     }
 
     /**
-      * Gets the value of the 'favorite_color' field.
+      * Gets the value of the 'text' field.
       * @return The value.
       */
-    public java.lang.CharSequence getFavoriteColor() {
-      return favorite_color;
+    public java.lang.String getText() {
+      return text;
     }
 
 
     /**
-      * Sets the value of the 'favorite_color' field.
-      * @param value The value of 'favorite_color'.
+      * Sets the value of the 'text' field.
+      * @param value The value of 'text'.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder setFavoriteColor(java.lang.CharSequence value) {
+    public example.avro.TwitterAvroModel.Builder setText(java.lang.String value) {
       validate(fields()[2], value);
-      this.favorite_color = value;
+      this.text = value;
       fieldSetFlags()[2] = true;
       return this;
     }
 
     /**
-      * Checks whether the 'favorite_color' field has been set.
-      * @return True if the 'favorite_color' field has been set, false otherwise.
+      * Checks whether the 'text' field has been set.
+      * @return True if the 'text' field has been set, false otherwise.
       */
-    public boolean hasFavoriteColor() {
+    public boolean hasText() {
       return fieldSetFlags()[2];
     }
 
 
     /**
-      * Clears the value of the 'favorite_color' field.
+      * Clears the value of the 'text' field.
       * @return This builder.
       */
-    public example.avro.TwitterAvroModel.Builder clearFavoriteColor() {
-      favorite_color = null;
+    public example.avro.TwitterAvroModel.Builder clearText() {
+      text = null;
       fieldSetFlags()[2] = false;
+      return this;
+    }
+
+    /**
+      * Gets the value of the 'createdAt' field.
+      * @return The value.
+      */
+    public java.lang.Long getCreatedAt() {
+      return createdAt;
+    }
+
+
+    /**
+      * Sets the value of the 'createdAt' field.
+      * @param value The value of 'createdAt'.
+      * @return This builder.
+      */
+    public example.avro.TwitterAvroModel.Builder setCreatedAt(java.lang.Long value) {
+      validate(fields()[3], value);
+      this.createdAt = value;
+      fieldSetFlags()[3] = true;
+      return this;
+    }
+
+    /**
+      * Checks whether the 'createdAt' field has been set.
+      * @return True if the 'createdAt' field has been set, false otherwise.
+      */
+    public boolean hasCreatedAt() {
+      return fieldSetFlags()[3];
+    }
+
+
+    /**
+      * Clears the value of the 'createdAt' field.
+      * @return This builder.
+      */
+    public example.avro.TwitterAvroModel.Builder clearCreatedAt() {
+      createdAt = null;
+      fieldSetFlags()[3] = false;
       return this;
     }
 
@@ -383,9 +452,10 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
     public TwitterAvroModel build() {
       try {
         TwitterAvroModel record = new TwitterAvroModel();
-        record.name = fieldSetFlags()[0] ? this.name : (java.lang.CharSequence) defaultValue(fields()[0]);
-        record.favorite_number = fieldSetFlags()[1] ? this.favorite_number : (java.lang.Integer) defaultValue(fields()[1]);
-        record.favorite_color = fieldSetFlags()[2] ? this.favorite_color : (java.lang.CharSequence) defaultValue(fields()[2]);
+        record.userId = fieldSetFlags()[0] ? this.userId : (java.lang.Long) defaultValue(fields()[0]);
+        record.id = fieldSetFlags()[1] ? this.id : (java.lang.Long) defaultValue(fields()[1]);
+        record.text = fieldSetFlags()[2] ? this.text : (java.lang.String) defaultValue(fields()[2]);
+        record.createdAt = fieldSetFlags()[3] ? this.createdAt : (java.lang.Long) defaultValue(fields()[3]);
         return record;
       } catch (org.apache.avro.AvroMissingFieldException e) {
         throw e;
@@ -418,22 +488,24 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
   @Override public void customEncode(org.apache.avro.io.Encoder out)
     throws java.io.IOException
   {
-    out.writeString(this.name);
+    out.writeLong(this.userId);
 
-    if (this.favorite_number == null) {
-      out.writeIndex(1);
+    out.writeLong(this.id);
+
+    if (this.text == null) {
+      out.writeIndex(0);
       out.writeNull();
     } else {
-      out.writeIndex(0);
-      out.writeInt(this.favorite_number);
+      out.writeIndex(1);
+      out.writeString(this.text);
     }
 
-    if (this.favorite_color == null) {
-      out.writeIndex(1);
+    if (this.createdAt == null) {
+      out.writeIndex(0);
       out.writeNull();
     } else {
-      out.writeIndex(0);
-      out.writeString(this.favorite_color);
+      out.writeIndex(1);
+      out.writeLong(this.createdAt);
     }
 
   }
@@ -443,44 +515,50 @@ public class TwitterAvroModel extends org.apache.avro.specific.SpecificRecordBas
   {
     org.apache.avro.Schema.Field[] fieldOrder = in.readFieldOrderIfDiff();
     if (fieldOrder == null) {
-      this.name = in.readString(this.name instanceof Utf8 ? (Utf8)this.name : null);
+      this.userId = in.readLong();
 
-      if (in.readIndex() != 0) {
+      this.id = in.readLong();
+
+      if (in.readIndex() != 1) {
         in.readNull();
-        this.favorite_number = null;
+        this.text = null;
       } else {
-        this.favorite_number = in.readInt();
+        this.text = in.readString();
       }
 
-      if (in.readIndex() != 0) {
+      if (in.readIndex() != 1) {
         in.readNull();
-        this.favorite_color = null;
+        this.createdAt = null;
       } else {
-        this.favorite_color = in.readString(this.favorite_color instanceof Utf8 ? (Utf8)this.favorite_color : null);
+        this.createdAt = in.readLong();
       }
 
     } else {
-      for (int i = 0; i < 3; i++) {
+      for (int i = 0; i < 4; i++) {
         switch (fieldOrder[i].pos()) {
         case 0:
-          this.name = in.readString(this.name instanceof Utf8 ? (Utf8)this.name : null);
+          this.userId = in.readLong();
           break;
 
         case 1:
-          if (in.readIndex() != 0) {
-            in.readNull();
-            this.favorite_number = null;
-          } else {
-            this.favorite_number = in.readInt();
-          }
+          this.id = in.readLong();
           break;
 
         case 2:
-          if (in.readIndex() != 0) {
+          if (in.readIndex() != 1) {
             in.readNull();
-            this.favorite_color = null;
+            this.text = null;
           } else {
-            this.favorite_color = in.readString(this.favorite_color instanceof Utf8 ? (Utf8)this.favorite_color : null);
+            this.text = in.readString();
+          }
+          break;
+
+        case 3:
+          if (in.readIndex() != 1) {
+            in.readNull();
+            this.createdAt = null;
+          } else {
+            this.createdAt = in.readLong();
           }
           break;
 

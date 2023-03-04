@@ -37,7 +37,7 @@ public class KafkaAdminClient{
     private WebClient webClient;
 
 
-    public void createTopics() throws InterruptedException {
+    public void createTopics() {
         try {
             retryTemplate.execute(this::doCreateTopics);
         } catch (Exception t) {
@@ -49,7 +49,7 @@ public class KafkaAdminClient{
 
     private void checkTopicsCreated() {
         Collection<TopicListing> topicListings = getTopics();
-        Integer retryCount = 1;
+        int retryCount = 1;
         Integer maxRetry = retryConfigData.getMaxAttempts();
         Double multiplier = retryConfigData.getMultiplier();
         Double sleepTimeMs = retryConfigData.getSleepTime();
@@ -64,7 +64,7 @@ public class KafkaAdminClient{
     }
 
     public void checkSchemaRegistery() {
-        Integer retryCount = 1;
+        int retryCount = 1;
         Integer maxRetry = retryConfigData.getMaxAttempts();
         Double multiplier = retryConfigData.getMultiplier();
         Double sleepTimeMs = retryConfigData.getSleepTime();
