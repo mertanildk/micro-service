@@ -1,7 +1,6 @@
 package com.microservices.demo.twittertoKafkaService.runner.impl;
 
 import com.microservices.demo.config.TwitterToKafkaServConfigData;
-import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -23,13 +22,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Component
-@RequiredArgsConstructor
 @ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "true")
 public class MockKafkaStreamRunner implements StreamRunner {
 
     private final Logger LOG = LoggerFactory.getLogger(MockKafkaStreamRunner.class);
     private final TwitterToKafkaServConfigData twitterToKafkaServConfigData;
     private final TwitterKafkaStatusListener twitterKafkaStatusListener;
+
     private static final Random RANDOM = new Random();
     private static final String[] WORDS;
 
@@ -68,6 +67,11 @@ public class MockKafkaStreamRunner implements StreamRunner {
             "}";
 
     private static final String TWITTER_STATUS_DATE_FORMAT = "EEE MMM dd HH:mm:ss zzz yyyy";//Date format
+
+    public MockKafkaStreamRunner(TwitterToKafkaServConfigData twitterToKafkaServConfigData, TwitterKafkaStatusListener twitterKafkaStatusListener) {
+        this.twitterToKafkaServConfigData = twitterToKafkaServConfigData;
+        this.twitterKafkaStatusListener = twitterKafkaStatusListener;
+    }
 
     @Override
     public void run() throws TwitterException {
