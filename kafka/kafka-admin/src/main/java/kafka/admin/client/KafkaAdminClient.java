@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 @Component
-public class KafkaAdminClient{
+public class KafkaAdminClient {
     private static final String MAX_TOPIC_EXP_MESSAGE = "Reacted max number of retry for creating kafka topics!";
     private final Logger LOG = LoggerFactory.getLogger(KafkaAdminClient.class);
     private KafkaConfigData kafkaConfigData;
@@ -37,7 +37,7 @@ public class KafkaAdminClient{
     private WebClient webClient;
 
 
-    public void createTopics() throws InterruptedException {
+    public void createTopics() {
         try {
             retryTemplate.execute(this::doCreateTopics);
         } catch (Exception t) {
@@ -87,6 +87,7 @@ public class KafkaAdminClient{
             return HttpStatus.SERVICE_UNAVAILABLE;
         }
     }
+
     private void sleep(long parseLong) {
         try {
             Thread.sleep(parseLong);
