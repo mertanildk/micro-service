@@ -11,3 +11,697 @@
 2023-03-01 21:08:02 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor malesuada ultricies malesuada consectetuer Microservices purus porttitor libero adipiscing
 2023-03-01 21:08:12 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Fusce ipsum posuere elit dolor pulvinar Kafka consectetuer lectus elit lectus massa
 2023-03-01 21:08:22 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: congue ultricies elit Java posuere posuere
+2023-03-05 13:34:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68102 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:34:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:34:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.431 seconds (process running for 1.044)
+2023-03-05 13:34:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:34:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:34:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:34:21 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:34:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada amet massa Maecenas adipiscing ipsum lectus ipsum Java libero elit adipiscing malesuada libero massa libero
+2023-03-05 13:34:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor Lorem dolor elit posuere Lorem lectus lectus Java porttitor congue Fusce magna posuere porttitor consectetuer
+2023-03-05 13:34:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: magna lectus porttitor elit Maecenas Lorem Elasticsearch sit Maecenas Fusce ultricies
+2023-03-05 13:34:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem Lorem congue dolor malesuada Microservices purus adipiscing sit pulvinar
+2023-03-05 13:35:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sit lectus sed libero purus elit ultricies Fusce Elasticsearch consectetuer libero sit sit elit sit
+2023-03-05 13:35:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing consectetuer posuere libero Elasticsearch consectetuer Fusce libero
+2023-03-05 13:35:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: magna purus purus sit sed Elasticsearch adipiscing elit amet
+2023-03-05 13:35:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada pulvinar libero libero purus Microservices sit lectus lectus sed
+2023-03-05 13:35:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor massa ipsum pulvinar pulvinar purus Java dolor Fusce adipiscing dolor
+2023-03-05 13:35:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada Maecenas porttitor elit ipsum ipsum Lorem posuere Kafka sed sit amet congue consectetuer magna purus
+2023-03-05 13:36:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: amet elit Maecenas adipiscing porttitor consectetuer magna lectus Microservices Lorem amet purus elit Lorem consectetuer
+2023-03-05 13:36:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sit Maecenas ultricies adipiscing Elasticsearch adipiscing Fusce
+2023-03-05 13:36:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: posuere sit magna consectetuer sit magna dolor consectetuer Elasticsearch consectetuer congue porttitor Fusce lectus purus
+2023-03-05 13:36:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: consectetuer sed sed Maecenas Fusce sit posuere Java purus Lorem Lorem lectus pulvinar
+2023-03-05 13:36:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus ipsum dolor Java porttitor elit
+2023-03-05 13:36:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor Maecenas Lorem adipiscing lectus Fusce lectus malesuada Microservices malesuada ultricies porttitor purus malesuada elit ipsum
+2023-03-05 13:37:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: congue sed dolor posuere Microservices ultricies porttitor
+2023-03-05 13:37:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor posuere ipsum magna amet Lorem Java sed sit ipsum pulvinar massa
+2023-03-05 13:37:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus dolor sit posuere ultricies pulvinar Java adipiscing consectetuer malesuada amet
+2023-03-05 13:37:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed adipiscing massa lectus amet congue lectus Kafka adipiscing purus ultricies adipiscing purus consectetuer
+2023-03-05 13:37:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: massa massa ultricies porttitor massa ipsum pulvinar Microservices libero massa Lorem Maecenas Maecenas
+2023-03-05 13:37:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: posuere lectus porttitor Maecenas sit massa pulvinar Maecenas Microservices Fusce malesuada dolor magna Maecenas lectus massa
+2023-03-05 13:38:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ipsum elit lectus Elasticsearch Fusce consectetuer
+2023-03-05 13:38:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed congue Lorem ultricies ultricies posuere Elasticsearch pulvinar dolor Lorem dolor
+2023-03-05 13:38:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: pulvinar massa dolor massa sit lectus Elasticsearch Lorem amet Maecenas massa Lorem
+2023-03-05 13:38:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: magna congue purus sit congue amet elit consectetuer Microservices Fusce posuere adipiscing sit adipiscing amet lectus
+2023-03-05 13:38:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing magna Fusce libero ultricies lectus Lorem Elasticsearch congue porttitor sit sed ultricies lectus
+2023-03-05 13:38:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: massa Lorem elit magna lectus posuere Maecenas massa Elasticsearch sit ultricies congue adipiscing sit massa
+2023-03-05 13:39:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus Lorem libero porttitor consectetuer libero porttitor consectetuer Kafka libero purus porttitor sit consectetuer Fusce purus
+2023-03-05 13:39:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor Lorem lectus Fusce Java Fusce libero consectetuer
+2023-03-05 13:39:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed magna Lorem magna pulvinar posuere Elasticsearch malesuada sed malesuada ultricies massa
+2023-03-05 13:39:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus adipiscing sit malesuada magna magna Java Fusce dolor malesuada Maecenas elit
+2023-03-05 13:39:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Maecenas dolor elit adipiscing ultricies elit elit Java posuere posuere libero consectetuer magna
+2023-03-05 13:39:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor ipsum dolor elit congue Kafka libero Maecenas lectus Maecenas
+2023-03-05 13:40:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: amet massa sit sed Maecenas libero ultricies porttitor Microservices Fusce ultricies magna adipiscing lectus elit
+2023-03-05 13:40:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus sed purus Kafka libero amet
+2023-03-05 13:40:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing sit posuere massa magna Microservices elit ipsum porttitor
+2023-03-05 13:40:31 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: posuere consectetuer porttitor Maecenas sit congue Microservices malesuada porttitor magna libero ultricies
+2023-03-05 13:40:41 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Fusce elit ultricies massa posuere Fusce Java purus congue ultricies Fusce
+2023-03-05 13:40:51 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: pulvinar magna ultricies lectus Elasticsearch magna adipiscing libero
+2023-03-05 13:41:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor Maecenas amet libero elit Microservices lectus congue lectus
+2023-03-05 13:41:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus Fusce Fusce Kafka posuere posuere
+2023-03-05 13:41:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: elit Lorem lectus ipsum libero magna Elasticsearch purus consectetuer consectetuer purus
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68621 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.415 seconds (process running for 0.814)
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:41:30 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:41:30 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: amet Fusce malesuada ipsum magna elit Fusce sed Microservices ipsum elit amet Maecenas porttitor dolor sed
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68691 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.402 seconds (process running for 0.807)
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:42:36 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:42:36 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada ipsum amet Microservices posuere porttitor
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68738 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.391 seconds (process running for 0.789)
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:43:21 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:43:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: congue ultricies malesuada ipsum Kafka adipiscing dolor purus
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68763 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.456 seconds (process running for 0.784)
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:43:42 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:43:42 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: magna posuere Fusce libero Elasticsearch adipiscing posuere
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68839 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.872 seconds (process running for 1.622)
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:44:50 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:44:50 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ipsum amet dolor dolor malesuada elit Microservices malesuada elit porttitor magna
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68917 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.38 seconds (process running for 0.989)
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:46:11 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:46:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: consectetuer amet ultricies congue consectetuer Java purus sit sed consectetuer
+2023-03-05 13:46:51 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68959 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:46:51 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:46:52 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.531 seconds (process running for 0.955)
+2023-03-05 13:46:52 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:46:52 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:46:52 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:46:52 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:46:52 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Maecenas elit consectetuer congue massa sit Java Fusce ultricies adipiscing malesuada
+2023-03-05 13:47:19 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 68995 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:47:19 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:47:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.436 seconds (process running for 0.766)
+2023-03-05 13:47:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:47:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:47:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:47:20 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:47:20 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem posuere Maecenas Fusce adipiscing Microservices Maecenas ultricies libero massa
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 69059 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.332 seconds (process running for 0.97)
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:48:23 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:48:23 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Maecenas pulvinar Maecenas malesuada porttitor libero congue Java sit elit amet dolor ultricies congue
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 69123 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.468 seconds (process running for 0.793)
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello from Twitter to Kafka Service
+2023-03-05 13:49:20 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 13:49:21 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing Lorem adipiscing posuere Kafka Maecenas sed
+2023-03-05 13:51:09 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 69245 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:51:09 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:51:09 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 13:51:09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration.kafkaProducerListener
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:749)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:748)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:652)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:531)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:250)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:243)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:233)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:181)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:156)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/retrytopic/RetryTopicConfigurationBuilder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3458)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2557)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.retrytopic.RetryTopicConfigurationBuilder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 37 common frames omitted
+2023-03-05 13:51:09 [main] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:749)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:748)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:652)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:658)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:650)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1276)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:863)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:851)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:838)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:778)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/retrytopic/RetryTopicConfigurationBuilder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3458)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2557)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.retrytopic.RetryTopicConfigurationBuilder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 25 common frames omitted
+2023-03-05 13:56:05 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 69553 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 13:56:05 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 13:56:05 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 13:56:05 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 13:56:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 13:56:05 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 14:02:06 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 69993 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:02:06 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:02:06 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 14:02:06 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 14:02:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 14:02:06 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 14:06:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 70259 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:06:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:06:50 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 14:06:50 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 14:06:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 14:06:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 14:12:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 70622 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:12:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:12:45 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 14:12:45 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 14:12:45 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 14:12:45 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 14:13:15 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 70692 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:13:15 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:13:15 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 14:13:15 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 14:13:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 14:13:15 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 70728 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.418 seconds (process running for 0.904)
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:13:45 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:13:45 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor adipiscing magna ipsum Lorem ipsum lectus Elasticsearch porttitor adipiscing ipsum Fusce lectus posuere
+2023-03-05 14:13:55 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem elit Lorem porttitor massa Lorem libero amet Kafka congue pulvinar lectus Lorem ultricies sed
+2023-03-05 14:14:05 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing sit amet elit massa Microservices massa porttitor Lorem
+2023-03-05 14:14:15 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: dolor adipiscing lectus consectetuer massa massa Java massa ipsum sit purus
+2023-03-05 14:14:25 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: amet lectus ultricies magna libero congue Elasticsearch malesuada Fusce congue pulvinar Maecenas
+2023-03-05 14:14:35 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus congue ultricies purus massa Java lectus magna sed ultricies
+2023-03-05 14:14:45 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sit pulvinar Maecenas magna libero posuere magna massa Elasticsearch libero malesuada malesuada ipsum consectetuer Fusce consectetuer
+2023-03-05 14:14:55 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada sit ipsum malesuada Fusce porttitor sed ipsum Kafka sit lectus libero ipsum massa massa
+2023-03-05 14:15:05 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: pulvinar Maecenas sit amet posuere Java sed amet posuere amet
+2023-03-05 14:15:15 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem magna purus ipsum elit Maecenas Kafka libero ultricies ipsum massa elit
+2023-03-05 14:15:25 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: purus ipsum porttitor dolor ultricies Maecenas massa adipiscing Kafka posuere libero pulvinar consectetuer sit libero elit
+2023-03-05 14:15:35 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Lorem massa consectetuer purus libero amet pulvinar magna Microservices dolor Lorem congue Maecenas libero Lorem
+2023-03-05 14:15:45 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ultricies purus massa lectus lectus porttitor Lorem Lorem Microservices Lorem magna congue congue libero massa
+2023-03-05 14:15:55 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed posuere congue purus Kafka pulvinar consectetuer
+2023-03-05 14:16:05 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: elit Lorem Fusce amet dolor consectetuer Fusce Microservices consectetuer dolor sed amet purus
+2023-03-05 14:16:15 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: porttitor sit massa adipiscing Java Maecenas lectus ultricies
+2023-03-05 14:16:25 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: consectetuer sit porttitor adipiscing elit ipsum Microservices libero Maecenas adipiscing massa
+2023-03-05 14:16:35 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sit magna massa consectetuer adipiscing Elasticsearch Maecenas adipiscing sit
+2023-03-05 14:16:45 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sit Maecenas ultricies elit Lorem sit porttitor posuere Elasticsearch libero Fusce ultricies Fusce purus consectetuer
+2023-03-05 14:16:55 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed ultricies porttitor Java massa malesuada
+2023-03-05 14:17:05 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: elit porttitor pulvinar massa Microservices Lorem magna ultricies
+2023-03-05 14:17:15 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Maecenas elit magna congue magna dolor malesuada congue Kafka libero elit magna congue amet malesuada amet
+2023-03-05 14:17:25 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: adipiscing pulvinar lectus porttitor Java pulvinar congue Lorem
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 71815 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.367 seconds (process running for 0.685)
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:31:26 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:31:26 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada pulvinar libero libero Fusce ipsum Microservices porttitor ultricies consectetuer porttitor consectetuer
+2023-03-05 14:31:36 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus libero elit congue lectus pulvinar Java sed elit sit elit
+2023-03-05 14:31:46 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Fusce posuere congue elit Java malesuada adipiscing
+2023-03-05 14:31:56 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ipsum elit Lorem consectetuer sed Java consectetuer malesuada sed purus
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 72116 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.357 seconds (process running for 0.725)
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:36:47 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:36:47 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: Fusce elit sed sed Maecenas posuere Java purus amet elit posuere
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 73049 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.371 seconds (process running for 0.715)
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:52:01 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:01 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: malesuada lectus sit Java ipsum consectetuer
+2023-03-05 14:52:11 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus dolor elit elit Lorem Microservices Fusce Maecenas Maecenas
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 73073 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.436 seconds (process running for 0.857)
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:52:23 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:23 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed malesuada elit sit Elasticsearch sed lectus sed
+2023-03-05 14:52:33 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ultricies posuere libero Elasticsearch sed sit
+2023-03-05 14:52:43 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: posuere Maecenas congue sit elit porttitor pulvinar pulvinar Java magna sed consectetuer congue massa dolor
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 73100 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.349 seconds (process running for 0.732)
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:52:50 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:52:50 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: sed porttitor porttitor adipiscing pulvinar posuere Java massa consectetuer ipsum malesuada
+2023-03-05 14:53:00 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: lectus dolor adipiscing libero Microservices ipsum amet
+2023-03-05 14:53:10 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: posuere Lorem posuere lectus consectetuer pulvinar Lorem Kafka porttitor ultricies massa elit massa porttitor
+2023-03-05 14:53:20 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ipsum Maecenas Fusce consectetuer dolor sed pulvinar Elasticsearch amet congue massa ipsum elit pulvinar
+2023-03-05 14:53:30 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: libero congue Fusce Fusce dolor pulvinar Maecenas Microservices consectetuer massa libero dolor dolor libero
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 73162 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.335 seconds (process running for 0.735)
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 14:53:53 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 14:53:53 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: libero sit libero lectus malesuada Lorem Microservices purus ultricies pulvinar ultricies magna
+2023-03-05 15:03:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 73701 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:03:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:03:04 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 15:03:05 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 15:03:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 15:03:05 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 15:13:24 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 74445 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:13:24 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:13:24 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 15:13:24 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 15:13:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 15:13:24 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 15:13:56 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 74482 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:13:56 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:13:56 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 15:13:56 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 15:13:56 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 15:13:56 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 15:14:17 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 74505 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:14:17 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:14:17 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 15:14:17 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 15:14:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 15:14:17 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 15:14:46 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 74539 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:14:46 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:14:47 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-05 15:14:47 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-03-05 15:14:47 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-05 15:14:47 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.twittertoKafkaService.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:29)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1772)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 19.0.1 with PID 74563 (/Users/mertanil/Desktop/MicroService/micro-service-demo/twitter-to-kafka-serv/target/classes started by mertanil in /Users/mertanil/Desktop/MicroService/micro-service-demo)
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.329 seconds (process running for 0.642)
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - TwitterToKafkaApplication is running
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.TwitterToKafkaApplication - Hello microservices!
+2023-03-05 15:15:04 [main] INFO  c.m.d.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-03-05 15:15:04 [pool-1-thread-1] INFO  c.m.d.t.l.TwitterKafkaStatusListener - onStatus: ultricies purus consectetuer adipiscing adipiscing malesuada dolor consectetuer Kafka amet elit Maecenas Maecenas lectus sed

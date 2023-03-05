@@ -20,9 +20,7 @@ public class TwitterKafkaProducerImp implements KafkaProducer<Long, TwitterAvroM
     public void send(String topicName, Long key, TwitterAvroModel message) {
 
         LOG.info("Sending message = {} to topic {}", message, topicName);
-
-        ListenableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture = kafkaTemplate.send(topicName, key, message);
-        CompletableFuture<SendResult<Long, TwitterAvroModel>> completableFuture = kafkaResultFuture.completable();
+        CompletableFuture<SendResult<Long, TwitterAvroModel>> completableFuture = kafkaTemplate.send(topicName, key, message);
         addCallBack(topicName, completableFuture);
 
 

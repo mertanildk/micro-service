@@ -1,8 +1,6 @@
 package com.microservices.demo.config;
 
 
-import com.microservices.demo.config.KafkaConfigData;
-import com.microservices.demo.config.KafkaProducerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;
@@ -17,8 +15,15 @@ import java.util.Map;
 
 @Configuration
 public class KafkaProducerConfig<K extends Serializable, V extends SpecificRecordBase> { //SpecificRecordBase is a class from avro
-    private KafkaConfigData kafkaConfigData;
-    private KafkaProducerConfigData kafkaProducerConfigData;
+
+
+    private final KafkaConfigData kafkaConfigData;
+    private final KafkaProducerConfigData kafkaProducerConfigData;
+
+    public KafkaProducerConfig(KafkaConfigData kafkaConfigData, KafkaProducerConfigData kafkaProducerConfigData) {
+        this.kafkaConfigData = kafkaConfigData;
+        this.kafkaProducerConfigData = kafkaProducerConfigData;
+    }
 
     @Bean
     public Map<String, Object> producerConfigs() {//producer özellikleri

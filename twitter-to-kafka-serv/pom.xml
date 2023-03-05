@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.microservices-demo</groupId>
-        <artifactId>microservice-demo</artifactId>
+        <groupId>com.microservices.demo</groupId>
+        <artifactId>microservice.demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>twitter-to-kafka-serv</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.microservices-demo</groupId>
+            <groupId>com.microservices.demo</groupId>
             <artifactId>app-config-data</artifactId>
         </dependency>
         <dependency>
@@ -24,7 +24,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
         <dependency><!--> Twitter4j -->
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
@@ -34,7 +33,6 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-
         <dependency><!--httpclient-->
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
@@ -43,8 +41,6 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
         </dependency>
-
-
     </dependencies>
 
     <build>
