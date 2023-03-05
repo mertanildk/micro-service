@@ -1,8 +1,8 @@
 package com.microservices.demo.twittertoKafkaService.runner.impl;
 
+import com.microservices.demo.config.TwitterToKafkaServiceConfigData;
 import com.microservices.demo.twittertoKafkaService.listener.TwitterKafkaStatusListener;
 import com.microservices.demo.twittertoKafkaService.runner.StreamRunner;
-import com.microservices.demo.config.TwitterToKafkaServConfigData;
 import jakarta.annotation.PreDestroy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,13 +21,13 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStreamRunner.class);
 
-    private final TwitterToKafkaServConfigData twitterToKafkaServiceConfigData;
+    private final TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
 
     private final TwitterKafkaStatusListener twitterKafkaStatusListener;
 
     private TwitterStream twitterStream;
 
-    public TwitterKafkaStreamRunner(TwitterToKafkaServConfigData twitterToKafkaServiceConfigData, TwitterKafkaStatusListener twitterKafkaStatusListener) {
+    public TwitterKafkaStreamRunner(TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData, TwitterKafkaStatusListener twitterKafkaStatusListener) {
         this.twitterToKafkaServiceConfigData = twitterToKafkaServiceConfigData;
         this.twitterKafkaStatusListener = twitterKafkaStatusListener;
     }

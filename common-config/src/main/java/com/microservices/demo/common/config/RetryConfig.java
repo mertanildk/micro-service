@@ -1,4 +1,4 @@
-package common.config;
+package com.microservices.demo.common.config;
 
 
 import com.microservices.demo.config.RetryConfigData;
@@ -11,7 +11,6 @@ import org.springframework.retry.support.RetryTemplate;
 @Configuration
 public class RetryConfig {
     private RetryConfigData retryConfigData;
-
 
 
     @Bean

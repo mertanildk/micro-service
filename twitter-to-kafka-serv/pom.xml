@@ -29,11 +29,6 @@
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
         </dependency><!--> Twitter4j -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
-        </dependency>
 
         <dependency><!--httpclient-->
             <groupId>org.apache.httpcomponents</groupId>
@@ -42,6 +37,10 @@
         <dependency><!--json-->
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservices-demo</groupId>
+            <artifactId>kafka-admin</artifactId>
         </dependency>
 
 

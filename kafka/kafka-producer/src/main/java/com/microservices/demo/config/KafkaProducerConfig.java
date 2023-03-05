@@ -1,8 +1,6 @@
 package com.microservices.demo.config;
 
 
-import com.microservices.demo.config.KafkaConfigData;
-import com.microservices.demo.config.KafkaProducerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;
