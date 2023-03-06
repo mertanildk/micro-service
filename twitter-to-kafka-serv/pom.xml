@@ -5,15 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.microservices-demo</groupId>
-        <artifactId>microservice-demo</artifactId>
+        <artifactId>microservices-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>twitter-to-kafka-serv</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.microservices-demo</groupId>
             <artifactId>app-config-data</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservices-demo</groupId>
+            <artifactId>kafka-admin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservices-demo</groupId>
+            <artifactId>kafka-producer</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -24,26 +33,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency><!--> Twitter4j -->
+        <dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
-        </dependency><!--> Twitter4j -->
-
-        <dependency><!--httpclient-->
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-        </dependency><!--httpclient-->
-        <dependency><!--json-->
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.microservices-demo</groupId>
-            <artifactId>kafka-admin</artifactId>
-        </dependency>
-
-
     </dependencies>
 
     <build>
@@ -51,9 +44,22 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
+                <configuration>
+                    <image>
+                        <name>${project.groupId}/twitter.to.kafka.service:${project.version}</name>
+                    </image>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>build-image</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
+
 
 </project>
