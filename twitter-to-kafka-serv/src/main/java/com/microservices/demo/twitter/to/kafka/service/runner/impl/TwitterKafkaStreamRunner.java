@@ -1,9 +1,8 @@
-package com.microservices.demo.twittertoKafkaService.runner.impl;
+package com.microservices.demo.twitter.to.kafka.service.runner.impl;
 
 import com.microservices.demo.config.TwitterToKafkaServiceConfigData;
-import com.microservices.demo.twittertoKafkaService.listener.TwitterKafkaStatusListener;
-import com.microservices.demo.twittertoKafkaService.runner.StreamRunner;
-import jakarta.annotation.PreDestroy;
+import com.microservices.demo.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
+import com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -13,6 +12,7 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 
+import javax.annotation.PreDestroy;
 import java.util.Arrays;
 
 @Component
@@ -27,14 +27,14 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private TwitterStream twitterStream;
 
-    public TwitterKafkaStreamRunner(TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData, TwitterKafkaStatusListener twitterKafkaStatusListener) {
-        this.twitterToKafkaServiceConfigData = twitterToKafkaServiceConfigData;
-        this.twitterKafkaStatusListener = twitterKafkaStatusListener;
+    public TwitterKafkaStreamRunner(TwitterToKafkaServiceConfigData configData,
+                                    TwitterKafkaStatusListener statusListener) {
+        this.twitterToKafkaServiceConfigData = configData;
+        this.twitterKafkaStatusListener = statusListener;
     }
 
-
     @Override
-    public void run() throws TwitterException {
+    public void run() {
         twitterStream = new TwitterStreamFactory().getInstance();
         twitterStream.addListener(twitterKafkaStatusListener);
         addFilter();
