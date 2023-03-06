@@ -2,6 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>twitter-to-kafka-serv</module>
+        <module>app-config-data</module>
+        <module>kafka</module>
+
+        <module>common-config</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -9,17 +16,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.microservices-demo</groupId>
-    <artifactId>microservice-demo</artifactId>
+    <artifactId>microservices-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>micro-service-demo</name>
     <description>micro-service-demo</description>
-    <modules>
-        <module>twitter-to-kafka-serv</module>
-        <module>app-config-data</module>
-        <module>kafka</module>
-        <module>common-config</module>
-
-    </modules>
     <packaging>pom</packaging>
 
     <repositories>
@@ -37,15 +37,42 @@
         <lombok.version>1.18.22</lombok.version>
         <httpclient.version>4.5.13</httpclient.version>
         <json.version>20220320</json.version>
-        <avro.version>1.10.1</avro.version>
-        <kafka.version>2.6.2</kafka.version>
-        <spring-retry.version>1.3.1</spring-retry.version>
-        <avro-serializer.version>5.5.2</avro-serializer.version>
-
+        <avro.version>1.10.0</avro.version>
+        <spring-kafka.version>2.7.4</spring-kafka.version>
+        <spring-retry.version>1.3.0</spring-retry.version>
+        <kafka-avro-serializer.version>5.5.1</kafka-avro-serializer.version>
+    
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- LOCAL -->
+            <dependency>
+                <groupId>com.microservices-demo</groupId>
+                <artifactId>app-config-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microservices-demo</groupId>
+                <artifactId>common-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microservices-demo</groupId>
+                <artifactId>kafka-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microservices-demo</groupId>
+                <artifactId>kafka-admin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microservices-demo</groupId>
+                <artifactId>kafka-producer</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
@@ -65,21 +92,27 @@
             </dependency>
 
             <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.retry</groupId>
+                <artifactId>spring-retry</artifactId>
+                <version>${spring-retry.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.twitter4j</groupId>
                 <artifactId>twitter4j-stream</artifactId>
                 <version>${twitter4j.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>${httpclient.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.json</groupId>
-                <artifactId>json</artifactId>
-                <version>${json.version}</version>
             </dependency>
 
             <dependency>
@@ -88,41 +121,18 @@
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
-            <dependency>
-                <groupId>com.microservices-demo</groupId>
-                <artifactId>app-config-data</artifactId>
-                <version>${project.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.apache.avro</groupId>
                 <artifactId>avro</artifactId>
                 <version>${avro.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.springframework.kafka</groupId>
-                <artifactId>spring-kafka</artifactId>
-                <version>${kafka.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.retry</groupId>
-                <artifactId>spring-retry</artifactId>
-                <version>${spring-retry.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.microservices-demo</groupId>
-                <artifactId>common-config</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-webflux</artifactId>
-                <version>${spring-boot.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-avro-serializer</artifactId>
-                <version>${avro-serializer.version}</version>
+                <version>${kafka-avro-serializer.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.slf4j</groupId>
@@ -139,24 +149,8 @@
                     <exclusion>
                         <groupId>io.swagger</groupId>
                         <artifactId>swagger-core</artifactId>
-                    </exclusion><!--Bu dependencyleri kafka-avro-serialize'dan almak istemiyoruz o yüzden exlusion ettik. -->
+                    </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>com.microservices-demo</groupId>
-                <artifactId>kafka-producer</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.microservices-demo</groupId>
-                <artifactId>kafka-model</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.microservices-demo</groupId>
-                <artifactId>kafka-admin</artifactId>
-                <version>${project.version}</version>
             </dependency>
 
 
@@ -170,7 +164,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <release>17</release>
+                    <release>11</release>
                 </configuration>
             </plugin>
         </plugins>
@@ -184,6 +178,5 @@
             </plugins>
         </pluginManagement>
     </build>
-
 </project>
 

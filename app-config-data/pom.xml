@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.microservices-demo</groupId>
-        <artifactId>microservice-demo</artifactId>
+        <artifactId>microservices-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
