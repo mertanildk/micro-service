@@ -19,7 +19,7 @@
     <artifactId>microservices-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>micro-service-demo</name>
-    <description>micro-service-demo</description>
+    <description>microservices-demo</description>
     <packaging>pom</packaging>
 
     <repositories>
