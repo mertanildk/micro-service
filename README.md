@@ -1,4 +1,4 @@
-I will continue to learn when i find the solution these
+I will continue to learn when i find the solution......
 
 Application run failed
 java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration.kafkaProducerListener
